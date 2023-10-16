@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap");
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--Lavander), var(--Clean-Blue));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hide {
+  display: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+  color: var(--White);
+  background-color: var(--Lavander);
+  box-shadow: var(--Shadow) 0px 3px 8px;
+  border-radius: 20px;
+}
+.container h1 {
+  font-size: 23px;
+  margin-bottom: 40px;
+  color: var(--Dark-Blue);
+}
+.container .search-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container .input-search {
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  outline: none;
+  border: 2px solid var(--White);
+  background-color: var(--Clean-Blue);
+  color: var(--Black);
+}
+
+.container .lupa {
+  width: 35px;
+  transform: rotate(90deg);
+  background-color: var(--Clean-Blue);
+  cursor: pointer;
+  border: 2px solid var(--White);
+  padding: 7px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.container .search-result {
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid;
+}
+.container .search-result .city {
+  margin-bottom: 10px;
+  font-size: 34px;
+  font-weight: 600;
+}
+.container .search-result .current-temperature {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: var(--Dark-Blue);
+}
+.container .search-result .description {
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.container .search-result .weather {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.container .search-result .details-weather {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(39, 39, 119);
+}
