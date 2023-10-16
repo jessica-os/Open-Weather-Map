@@ -1,8 +1,13 @@
 # Open-Weather-Map
 
  ## Veja como ficou o projeto:
+ 
+ ## Desktop:
   <img src="./src/images/video_clima.gif" alt="video do projeto em funcionamento">
   
+  ## Mobile:
+   <img src="./src/images/video_clima_mobile.gif" alt="video do projeto em funcionamento">
+   
   ## Do que se trata esse projeto?
 Este projeto trata-se de uma página onde é possível buscar alguns dados do clima atual em uma determinada cidade.
 Essa busca dinâmica é possível através de uma requisição feita a api pública [OPEN WEATHER MAP](https://openweathermap.org/).
