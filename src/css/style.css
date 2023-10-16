@@ -84,5 +84,6 @@ body {
 .container .search-result .details-weather {
   display: flex;
   justify-content: space-around;
-  color: rgb(39, 39, 119);
+  color: var(--Dark-Blue);
+  
 }
